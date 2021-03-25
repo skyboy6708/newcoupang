@@ -1,0 +1,263 @@
+@media only screen and (max-width: 1120px) {
+  /* ---------------------------------------*/
+  /* 헤더(네비게이션)                            */
+  /*----------------------------------------*/
+
+  .menu {
+    position: absolute;
+    top: 4.4rem;
+    left: 0;
+    height: 4rem;
+    line-height: 4rem;
+    margin: 0 1rem;
+    width: 46.5rem;
+  }
+  .menu > li {
+    padding-right: 1rem;
+  }
+
+  .top-area,
+  .row-category .category,
+  .row-category .search-wrapper .search-logo {
+    display: none;
+  }
+  .row-category .search-wrapper .menu li a.blue-rocket {
+    background-position: 0 -115px;
+  }
+  .row-category .search-wrapper .menu li a.green-rocket {
+    background-position: 0 -115px;
+  }
+  .row-category .search-wrapper .menu li a {
+    padding: 0 0 0;
+    display: inline-block;
+    min-width: 5.4rem;
+  }
+  .row-category .search-wrapper .menu li:nth-child(1) a {
+    min-width: 8rem;
+  }
+  .row-category .search-wrapper .menu li:nth-child(2) a {
+    min-width: 9rem;
+  }
+  .row-category .search-wrapper .menu li:nth-child(6) a {
+    min-width: 8rem;
+  }
+  .m-header {
+    height: 4.4rem;
+    display: block;
+    margin-bottom: 4rem;
+  }
+  .m-header .logo-area {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 1rem;
+    border-bottom: 1px solid rgb(219, 218, 218);
+  }
+  .m-header .logo-area .gnb-area {
+    display: flex;
+  }
+  .m-header .logo-area .gnb-area .logo a {
+    display: block;
+    width: 9.5rem;
+    height: 4.4rem;
+  }
+  .m-header .logo-area .gnb-area > a {
+    display: inline-block;
+    background: #fff;
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-right: 1rem;
+
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 1px 1px 1px #aaa;
+    margin-top: 4px;
+  }
+  .m-header .logo-area .gnb-area > a i {
+    line-height: 3.6rem;
+    color: rgb(134, 134, 134);
+  }
+  .m-header .logo-area .search-area {
+    display: flex;
+  }
+  .m-header .logo-area .search-area .search-btn a,
+  .m-header .logo-area .search-area .my-cart a {
+    display: inline-block;
+    padding: 0 1rem;
+    height: 3.1rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #aaa;
+    margin-top: 6px;
+  }
+  .m-header .logo-area .search-area .search-btn a i,
+  .m-header .logo-area .search-area .my-cart a i {
+    line-height: 3.1rem;
+    font-size: 1.5rem;
+    color: #222;
+  }
+  .m-header .logo-area .search-area .my-cart {
+    margin-left: 1rem;
+  }
+
+  /* ---------------------------------------*/
+  /* slider section                                */
+  /*----------------------------------------*/
+  #slider {
+    min-height: 30rem;
+    height: 100%;
+  }
+  #slider .slide-img {
+    height: 100%;
+    left: 50%;
+    margin-left: -50%;
+  }
+  #slider .slide-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #slider .link-area {
+    right: -3rem;
+    bottom: -28rem;
+    width: 54rem;
+  }
+  #slider .link-area .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* ---------------------------------------*/
+  /* hotdeal section                             */
+  /*----------------------------------------*/
+  #hotdeal {
+    margin-top: 17rem;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  #hotdeal {
+    width: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #footer {
+  }
+  #footer .footer-wrapper {
+    width: auto;
+    flex-direction: column;
+  }
+  #footer .footer-wrapper .sns-area {
+    right: 1rem;
+  }
+  #footer .footer-wrapper .box {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 722px) {
+  #slider {
+    min-height: 15rem;
+    min-width: 39rem;
+  }
+  #slider .link-area {
+    bottom: -13rem;
+    right: 0;
+  }
+}
+@media only screen and (max-width: 590px) {
+  #slider .link-area {
+    max-width: 36rem;
+  }
+  #hotdeal {
+    margin-top: 24rem;
+  }
+  #hotdeal .hot-area {
+    transition: all 0.3s;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, auto);
+  }
+  #hotdeal .hot-area .hot-item:nth-child(1) {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    height: 100%;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(2) {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    height: 100%;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(3) {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(4) {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 2;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(5) {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 2;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(6) {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 2;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(7) {
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 2;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(8) {
+    grid-column: 1 / span 1;
+    grid-row: 8 / span 2;
+  }
+  #hotdeal .hot-area .hot-item:nth-child(9) {
+    grid-column: 2 / span 1;
+    grid-row: 8 / span 2;
+  }
+  #hotdeal .hot-area .hot-item .gohover {
+    left: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 2.3rem;
+  }
+}
+@media only screen and (max-width: 411px) {
+  #hotdeal .hot-title {
+    display: block;
+    position: relative;
+  }
+  #hotdeal > h2 {
+    display: none;
+  }
+  #hotdeal .hot-title > h2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    margin-top: 1.8rem;
+  }
+}
+@media only screen and (max-width: 404px) {
+  #hotdeal {
+    margin-top: 45rem;
+  }
+  #hotdeal .hot-area {
+    display: flex;
+    flex-direction: column;
+  }
+  #slider .link-area {
+    left: 0;
+  }
+  #slider .link-area > .wrapper {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hot-title > h2 {
+    width: 12.4rem;
+    font-size: 1.7rem !important;
+    text-align: center;
+  }
+}
